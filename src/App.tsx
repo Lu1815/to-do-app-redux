@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './App/pages/Home';
+import { router } from './App/routes/Index';
+import { Button } from './ui/Button';
+import ContactCard from './ui/ContactCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container mx-auto">
+      <Home />
+      <ContactCard contactName='Jhon Doe' contactImage='https://example.com/avatar.jpg' />
     </div>
   );
 }

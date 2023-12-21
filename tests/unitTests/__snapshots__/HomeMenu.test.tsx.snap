@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeMenu Component matches snapshot 1`] = `
+<div>
+  <div
+    class="container h-dvh mx-auto grid content-center"
+  >
+    <div
+      class="flex flex-col justify-center gap-2 text-center mx-auto w-2/3"
+    >
+      <a
+        class="bg-btn rounded-md text-white font-bold px-3 py-2"
+        href="/tasks"
+      >
+        Tasks
+      </a>
+      <a
+        class="bg-btn rounded-md text-white font-bold px-3 py-2"
+        href="/list"
+      >
+        List
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component matches snapshot 1`] = `
+<div>
+  <input
+    class="rounded-md p-2 border-gray-200 border-2 outline-none placeholder:text-gray-600 text-black"
+    id="task-name"
+    placeholder="Task Name..."
+    type="text"
+    value=""
+  />
+</div>
+`;

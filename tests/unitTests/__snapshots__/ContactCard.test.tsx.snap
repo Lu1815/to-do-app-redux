@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactCard Component matches snapshot 1`] = `
+<div>
+  <div
+    class="bg-white border-gray-200 border-2 py-8 px-10 text-center rounded-md shadow-lg w-full mx-auto"
+  >
+    <div
+      class="flex flex-row gap-3 justify-left mx-auto"
+    >
+      <img
+        alt="Contact Avatar"
+        class="w-20 h-20 object-cover rounded-full shadow-lg"
+        src="https://example.com/avatar.jpg"
+      />
+      <div
+        class="grid content-center"
+      >
+        <h2
+          class="font-semibold text-left align-middle max-h-min text-2xl md:text-lg lg:text-2xl break-words"
+        >
+          John Doe
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;

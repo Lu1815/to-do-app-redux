@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component matches snapshot 1`] = `
+<div>
+  <div
+    class="w-full py-2 px-3 border-gray-200 border-2 rounded-md"
+  >
+    <p
+      class="text-lg text-black font-normal"
+    >
+      Snapshot Test
+    </p>
+  </div>
+</div>
+`;

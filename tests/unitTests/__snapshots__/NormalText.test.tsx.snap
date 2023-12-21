@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NormalText Component matches snapshot 1`] = `
+<div>
+  <p
+    class="text-blue-500 font-semibold"
+  >
+    Snapshot Test
+  </p>
+</div>
+`;
