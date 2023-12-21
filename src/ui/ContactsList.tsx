@@ -12,7 +12,7 @@ const ContactsList = () => {
             No image loads, because the images URLs are unreachable
             <div className="flex flex-col md:grid md:grid-cols-3 lg:grid-cols-4 justify-center gap-2 py-3">
                 {
-                    contactList!.length == 0 ? <h1>There are no contacts yet...</h1>
+                    contactList!.length === 0 ? <h1>There are no contacts yet...</h1>
                         :
                         contactList!.map((contact) => (
                             <ContactCard contactName={contact.name} contactImage={contact.avatar} key={contact.id} />

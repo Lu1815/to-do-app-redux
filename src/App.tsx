@@ -1,6 +1,4 @@
 import Home from './App/pages/Home';
-import { router } from './App/routes/Index';
-import { Button } from './ui/Button';
 import ContactCard from './ui/ContactCard';
 
 function App() {
