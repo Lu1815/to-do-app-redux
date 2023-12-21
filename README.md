@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# ToDo App Redux Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![[Working App]](https://im5.ezgif.com/tmp/ezgif-5-7e94cc3d34.gif)
 
-## Available Scripts
+To run this app, first run the comman
 
-In the project directory, you can run:
+```
+ npm install
+```
 
-### `npm start`
+Or the equivalent depending on the package manager you use (yarn, pnpm).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## List of dependencies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In order to finish this test I used the dependencies listed below:
 
-### `npm test`
+| Package Name                 | Description                           | Version     |
+| ---------------------------- | ------------------------------------- | ----------- |
+| @reduxjs/toolkit             | Redux Toolkit                         | ^2.0.1      |
+| @testing-library/jest-dom    | Testing library for Jest DOM          | ^5.17.0     |
+| @testing-library/react       | Testing library for React             | ^13.4.0     |
+| @testing-library/user-event  | Testing library for user events       | ^13.5.0     |
+| @types/node                  | TypeScript type definitions for Node | ^16.18.68   |
+| @types/react                 | TypeScript type definitions for React| ^18.2.45    |
+| @types/react-dom             | TypeScript type definitions for ReactDOM | ^18.2.18 |
+| clsx                         | A utility for constructing className strings | ^2.0.0 |
+| localforage                  | Offline storage library               | ^1.10.0     |
+| match-sorter                 | Simple, expected, and deterministic best-match sorting | ^6.3.1 |
+| react                        | React library                         | ^18.2.0     |
+| react-dom                    | React DOM library                     | ^18.2.0     |
+| react-loader-spinner         | Loading spinner for React             | ^6.1.1-0    |
+| react-redux                  | React bindings for Redux              | ^9.0.4      |
+| react-router-dom             | DOM bindings for React Router         | ^6.21.0     |
+| react-scripts                | Scripts for React apps                | 5.0.1       |
+| react-toastify               | Toast notifications for React         | ^9.1.3      |
+| sort-by                      | Sorting utility                       | ^1.2.0      |
+| ts-node                      | TypeScript execution and REPL for Node.js | ^10.9.2 |
+| typescript                   | TypeScript                           | ^4.9.5      |
+| web-vitals                   | Library for measuring web vitals      | ^2.1.4      |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## List of dev dependencies
 
-### `npm run build`
+The dependencies below were used to create and run the test cases created for the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Package Name                    | Description                                     | Version      |
+| ------------------------------- | ----------------------------------------------- | ------------ |
+| @babel/preset-env               | Babel preset for the latest ECMAScript features | ^7.23.6       |
+| @babel/preset-react             | Babel preset for React                          | ^7.23.3       |
+| @babel/preset-typescript        | Babel preset for TypeScript                     | ^7.23.3       |
+| @jest/globals                  | Jest globals                                    | ^29.7.0       |
+| @types/jest                    | TypeScript type definitions for Jest            | ^29.5.11      |
+| babel-jest                      | Jest transformer for Babel                      | ^29.7.0       |
+| jest                            | JavaScript testing framework                    | ^29.7.0       |
+| jest-environment-jsdom         | Jest environment for DOM testing                | ^29.7.0       |
+| msw                             | Mock Service Worker for API mocking in tests    | ^2.0.11       |
+| react-test-renderer             | React renderer for testing                      | ^18.2.0       |
+| tailwindcss                     | A utility-first CSS framework                   | ^3.4.0        |
+| text-encoding-utf-8             | Text Encoding API for UTF-8 encoding/decoding   | ^1.0.2        |
+| ts-jest                         | TypeScript preprocessor for Jest                | ^29.1.1       |
+| undici                          | HTTP/1.1 client library                         | ^6.2.0        |
