@@ -10,6 +10,12 @@ To run this app, first run the comman
 
 Or the equivalent depending on the package manager you use (yarn, pnpm).
 
+To run the test, run the comman
+
+```
+ npm run test
+```
+
 ## List of dependencies
 
 In order to finish this test I used the dependencies listed below:
