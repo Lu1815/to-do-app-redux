@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button, HomeMenu as Menu } from '../../ui/Index'
+import { HomeMenu as Menu } from '../../ui/Index'
 
 function Home() {
   return (

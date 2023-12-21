@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction, useState } from "react";
 import Input from "./Input";
 import { useAppDispatch, useAppSelector } from "../App/redux/Hooks";
 import { ITodoState, create } from "../App/redux/TodosSlice";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import { ErrorNotification } from "../lib/Notifications";
 
 const DEFAULT_INT = 0;
