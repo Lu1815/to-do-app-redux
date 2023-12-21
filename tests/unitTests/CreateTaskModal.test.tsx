@@ -51,27 +51,6 @@ describe('CreateTaskModal Component', () => {
         expect(defaultProps.setShowModal).toHaveBeenCalledWith(false);
     });
 
-    // test('calls dispatch and resets state when Add Task button is clicked with a valid taskName', () => {
-    //     const mockDispatch = jest.fn();
-    //     const mockUseAppDispatch = jest.spyOn(require('../../src/App/redux/Hooks'), 'useAppDispatch');
-    //     mockUseAppDispatch.mockReturnValue(mockDispatch);
-
-    //     render(
-    //         <Provider store={store}>
-    //             <CreateTaskModal {...defaultProps} />
-    //         </Provider>
-    //     );
-
-    //     userEvent.type(screen.getByLabelText('Task Name:'), 'New Task');
-    //     fireEvent.click(screen.getByText('Add Task'));
-
-    //     expect(mockDispatch).toHaveBeenCalled();
-    //     expect(defaultProps.setShowModal).toHaveBeenCalledWith(false);
-    //     // Additional assertions based on your implementation
-    // });
-
-    // Add more test cases as needed
-
     test('matches snapshot', () => {
         const { container } = render(
             <Provider store={store}> {/* Wrap your component with Provider and provide the test store */}

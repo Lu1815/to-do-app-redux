@@ -9,7 +9,6 @@ interface IInputProps {
 }
 
 const Input = ({ taskName, setTaskName, error, setError}: IInputProps) => {
-    console.log('ERROR state inside the INPUT component: ' + error)
     const handleChange = (event: React.FormEvent<HTMLInputElement>) => {
         setError(false);
         const taskName = event.currentTarget.value;

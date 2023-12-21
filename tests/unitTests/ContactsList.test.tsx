@@ -18,19 +18,6 @@ afterEach(() => server.resetHandlers());
 afterAll(() => server.close());
 
 describe('ContactsList Component', () => {
-    // it('renders without crashing', async () => {
-        
-    //     render(
-    //         <ApiProvider api={mockApi}>
-    //             <ContactsList />
-    //         </ApiProvider>
-    //     );
-
-    //     await waitFor(() => {
-    //         expect(screen.getByText('John Doe')).toBeInTheDocument();
-    //     });
-    // });
-
     it('renders Loader when isLoading is true', async () => {
         server.use(
             http.get('https://6172cfe5110a740017222e2b.mockapi.io/elements', async (info) => {
@@ -48,24 +35,6 @@ describe('ContactsList Component', () => {
 
         expect(screen.getByText('Loading...')).toBeInTheDocument();
     });
-
-    // it('renders "No contacts yet" message when contactList is empty', async () => {
-    //     server.use(
-    //         http.get('https://6172cfe5110a740017222e2b.mockapi.io/elements', () => {
-    //             return new Response(JSON.stringify([]))
-    //         })
-    //     );
-
-    //     render(
-    //         <ApiProvider api={mockApi}>
-    //             <ContactsList />
-    //         </ApiProvider>
-    //     );
-
-    //     await waitFor(() => {
-    //         expect(screen.getByText('There are no contacts yet...')).toBeInTheDocument();
-    //     });
-    // });
 
     it('matches snapshot', async () => {
         const { container } = render(
